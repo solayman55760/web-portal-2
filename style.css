@@ -397,6 +397,8 @@ header .nav ul li a:hover{
     height: auto;
     margin: 0 auto;
     padding: 0;
+    margin-bottom: 100px;
+    
  }
 
 
@@ -406,6 +408,7 @@ header .nav ul li a:hover{
     display: flex;
     justify-content:space-around ;
     margin: 0 auto;
+    margin-top: -100px;
  }
 
 
@@ -414,9 +417,50 @@ header .nav ul li a:hover{
     height: 600px;
     background-color: rgb(249,249 ,255 );
     text-align: center;
-    border: 1px solid rgba(0,0,0,0.2;
+    border: 1px solid rgba(0,0,0,0.2)
  }
 
 
- 
+ .section9 .chart .chart1 h2{
+    font-size: 60px;
+    font-weight: bold;
+ }
 
+
+ .section9 .chart .chart1 h3{
+    font-size:25px ;
+    font-weight: bold;
+ }
+
+
+ .section9 .chart .chart1 h1{
+    font-size: 50px;
+    font-weight: bold;
+ }
+
+
+
+.section9 .btn{
+    padding: 5px 25px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: #e7b50f;
+    font-weight: bold;
+}
+
+
+.section9 .chart1:hover{
+     background-color: #7f97ff;
+    color: white;
+    transition: all 0.2s ease-in;
+    transform: scale(1.05);
+    border: 1px solid rgba(130, 147, 255 ,0.5);
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5);
+}
+
+
+.section9 .chart:hover button{
+    color: rgb(4, 124, 236);
+    background-color: rgb(245, 243, 243);
+}
