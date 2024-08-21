@@ -388,7 +388,35 @@ header .nav ul li a:hover{
 
 
  .section8 h4{
-    opacity: 0.6;
-    
+    opacity: 0.6;  
  }
+
+
+ .section9{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+ }
+
+
+ .section9 .chart{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content:space-around ;
+    margin: 0 auto;
+ }
+
+
+ .section9 .chart .chart1{
+    width: 300px;
+    height: 600px;
+    background-color: rgb(249,249 ,255 );
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.2;
+ }
+
+
+ 
 
